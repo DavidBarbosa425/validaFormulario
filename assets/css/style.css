@@ -13,15 +13,19 @@ body {
 
 .form {
     background-image: linear-gradient(45deg, black, blue);
-    border: 5px solid black;
     width: 380px;
     height: 620px;
     margin: 20px auto;
     padding: 10px;
     color: blanchedalmond;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.801);
 }
 
 h1 {
+    background-color: black;
+    color: rgb(145, 255, 43);
+    border-radius: 5px;
     text-align: center;
     margin: 10px;
 }
@@ -40,6 +44,13 @@ input {
     border-radius: 15px;
     background-color: black;
     color: blanchedalmond;
+}
+
+.submit:hover {
+    background-color: rgb(145, 255, 43);
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
 }
 
 .textError {
